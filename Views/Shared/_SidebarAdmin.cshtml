@@ -1,0 +1,27 @@
+﻿<div class="iq-sidebar">
+    <div class="iq-sidebar-logo d-flex justify-content-between">
+        <a href="index.html">
+            <img src="~/assets/logo/logo-dinas-75.png" class="img-fluid" alt="">
+            <span style="font-size:18px;">E-Magang</span>
+        </a>
+        <div class="iq-menu-bt align-self-center">
+            <div class="wrapper-menu">
+                <div class="line-menu half start"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu half end"></div>
+            </div>
+        </div>
+    </div>
+     <div id="sidebar-scrollbar">
+         <nav class="iq-sidebar-menu">
+             <ul id="iq-sidebar-toggle" class="iq-menu">
+                 <li class="iq-menu-title"><i class="ri-separator"></i><span>Main</span></li>
+                 <li class='@(ViewBag.Active ? "active" : "")'>
+                    <a href="/" class="iq-waves-effect"><i class="las la-home"></i><span>Dashboard</span></a>                   
+                </li>
+
+                <li class="iq-menu-title"><i class="ri-separator"></i><span>Master Data</span></li>
+             </ul>
+         </nav>
+     </div>
+</div>
